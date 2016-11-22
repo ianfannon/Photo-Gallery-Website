@@ -1,0 +1,161 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            width: 100%;
+            font-family: Times, "Times New Roman", Arial;
+            
+            background: url(../images/background8.jpg);
+            
+        }
+        #container {
+	        width: 100%;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-box-flex: 1;
+        }
+        /* header */
+        #container #top header {
+            background: linear-gradient(darkgoldenrod, burlywood);
+            border: 6px outset brown;
+            padding-bottom: 40px;
+            padding-top: 20px;
+            
+        }
+        header #banner {
+            width: 960px;
+            height: 250px;
+            margin: auto;
+            background: url(../images/gogh3%20Four%20Cut%20Sunflowers.jpeg) repeat 0 0;
+        }
+        header #banner p {
+            position: relative:
+            left: 20;
+            top: 120;
+            color: antiquewhite;
+            font-weight: bold;
+            width: 550px;
+            padding: 20px;
+            background-color: darkred;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 20px;
+            zoom: 1;
+            opacity: 0.8;
+        }
+        /* END header */
+        
+        /* START audio player */
+        #wrapper {
+            width: 600px;
+            margin: 10px auto;
+            border: 1px solid #000;
+        }
+        nav {
+            background-color: rgb(250, 250, 250);
+            width: 600px;
+            padding-bottom: 3px;
+        }
+        #defaultBar {
+	        width: 600px;
+            position: relative;
+            background-color: #606060;
+            height: 10px;
+        }
+        #progressBar {
+	        position: absolute;
+            height: 10px;
+            background-color: #3498db;
+            width: 0px;
+        }
+        #playButton {
+	        background-color: rgb(250, 250, 250);
+            border: none;
+            height: 25px;
+            width: 25px;
+            background-image: url(../images/play.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            padding: 3px 3px 0 3px;
+        }
+        #pauseButton {
+	        background-color: rgb(250, 250, 250);
+            border: none;
+            height: 25px;
+            width: 25px;
+            background-image: url(../images/pause.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            padding: 3px 3px 0 3px;
+        }
+        #soundButton {
+	        background-color: rgb(250, 250, 250);
+            border: none;
+            height: 25px;
+            width: 25px;
+            background-image: url(../images/unmute.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: 3px 0 0 3px;
+        }
+        #muteButton {
+	        background-color: rgb(250, 250, 250);
+            border: none;
+            height: 25px;
+            width: 25px;
+            background-image: url(../images/mute.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: 3px 0 0 3px;
+        }
+        #playButton:active, #soundButton:active {
+	        position: relative;
+            top: 2px;
+        }
+        /* END of audio player */
+        
+        #vanGogh {
+            position: relative;
+            top: 200px;
+            left: 620px;
+        }
+        #gallery {
+            position: relative;
+            top: 250px;
+            left: 800px;
+            text-decoration: none;
+            float: left;
+            border: 1px solid grey;
+            background-color: lightgrey;
+            padding: 5px;
+        }
+        #gallery:hover {
+            color: firebrick;
+            text-decoration: line-through;
+        }
+        #gallery:active {
+            color: darkred;
+        }
+        #reading {
+            position: relative;
+            top: 400px;
+            left: 200px;
+            width: 80%;
+            text-align: center;
+        }
+        footer {
+            position: relative;
+            top: 600px;
+            width: 100%;
+            height: 200px;
+            clear: both;
+            border: 6px outset brown; 
+            background-color: chocolate;
+            text-align: center;
+        }
+        #copyWrite {
+            color: antiquewhite;
+            font-weight: bold;
+            padding: 10px;
+        }

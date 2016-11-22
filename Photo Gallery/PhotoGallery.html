@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+    <meta name="viewport" content="width= device-width, initial-scale=1.0" />
+    <title>JQuery Template</title>
+    <link rel="stylesheet" type="text/css" href="css/PhotoGallery.css">
+    <link rel="stylesheet" href="/Photo%20Gallery/source/jquery.fancybox.css" type="text/css" media="screen" />
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h3>Famous Paintings</h3>
+        </header>
+        <section id="content">
+            <div id="gallery">
+                <ul>
+                    <li><a class="fancybox" rel="group" href="images/gogh12%20The%20Starry%20Night.jpeg"><img src="images/thumbnails/gogh12%20The%20Starry%20Night.jpg" width="200" height="171" alt="The Starry Night"></a></li>
+                    <li><a class="fancybox" rel="group" href="images/gogh13%20The%20Artist's%20Bedroom.jpeg"><img src="images/thumbnails/gogh13%20The%20Artist's%20Bedroom.jpg" width="200" height="171" alt="The Artist's Bedroom"></a></li>
+                    <li><a class="fancybox" rel="group" href="images/gogh21%20Night%20Cafe.jpeg"><img src="images/thumbnails/gogh21%20Night%20Cafe.jpg" width="200" height="171" alt="Night Cafe"></a></li>
+                    <li><a class="fancybox" rel="group" href="images/gogh24%20Thatched%20Cottages%20at%20Cordeville.jpeg"><img src="images/thumbnails/gogh24%20Thatched%20Cottages%20at%20Cordeville.jpg" width="200" height="171" alt="Thatched Cottages at Cordeville"></a></li>
+                </ul>
+                <ul>
+                    <li><a class="fancybox" rel="group" href="images/gogh25%20Olive%20Trees.jpeg"><img src="images/thumbnails/gogh25%20Olive%20Trees.jpg" width="200" height="171" alt="Olive Trees"></a></li>
+                    <li><a class="fancybox" rel="group" href="images/gogh29%20Bridge%20at%20Clichy.jpeg"><img src="images/thumbnails/gogh29%20Bridge%20at%20Clichy.jpg" width="200" height="171" alt="Bridge at Clichy"></a></li>
+                    <li><a class="fancybox" rel="group" href="images/gogh4%20Drawbridge%20&%20Lady%20w%20Parasol.jpeg"><img src="images/thumbnails/gogh4%20Drawbridge%20&%20Lady%20w%20Parasol.jpg" width="200" height="171" alt="Drawbridge and Lady with Parasol"></a></li>
+                    <li><a class="fancybox" rel="group" href="images/gogh7%20The%20Road%20Menders.jpeg"><img src="images/thumbnails/gogh7%20The%20Road%20Menders.jpg" width="200" height="171" alt="Road Menders"></a></li>
+                </ul>
+            </div>
+        </section>
+        <footer>
+            <h4>All Rights Reserved</h4>
+        </footer>
+    </div>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/Photo%20Gallery/source/jquery.fancybox.pack.js"></script>
+    <script type="text/javascript">
+        $('document').ready(function() {
+            $(".fancybox").fancybox();
+        });
+    </script>
+</body>
+</html>

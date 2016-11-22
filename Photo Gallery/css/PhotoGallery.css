@@ -1,0 +1,73 @@
+        html, body, div, h3, h4, ul, li, img {
+            margin: 0;
+            padding: 0;
+        }
+        article, footer, header, section { 
+            display: block; 
+        }
+        body {
+            background-image: url(/ProgrammingImages/background6.jpg);
+            background-color: coral;
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            display: -webkit-box;
+            -webkit-box-pack: center;
+        }
+        #contianer {
+            display: -webkit-box;
+            -webkit-box-orient: horizontal;
+            -webkit-box-flex: 2;
+            margin: 200px auto;
+        }
+        #container header {
+            background-color: chocolate;
+            border-bottom: 2px groove #cd5c5c;
+            height: 35px;
+        }
+        #container header h3 {
+            color: #b22222;
+            text-align: center;
+            padding-top: 6px;
+            font-size: 1.2em;
+            word-spacing: 2px;
+            text-shadow: 1px 1px 2px #000;
+        }
+        #container #content {
+            background-color: #cd853f;
+            background: linear-gradient(to top, #ff4500 0%, #ff6347 50%, #cd853f 100%);
+            background: -webkit-linear-gradient(bottom, #cd853f 0%, #a52a2a 50%, #cd853f 100%);
+            padding: 30px 100px 30px 100px;
+            overflow: hidden;
+        }
+        #container #gallery {
+            width: 950px;
+            margin: auto;
+            
+        } 
+        #container #gallery ul {
+            list-style: none;
+        }
+        #container #gallery ul li {
+            float: left;
+            margin: 12px;
+        }
+        #container #gallery ul li img {
+            display: block;
+            padding: 5px;
+            background-color: #b8860b;
+            border: 1px inset #a52a2a;
+            box-shadow: 1px 1px2px #000;
+        }
+        #container #gallery ul li img:hover {
+            border: 1px solid #fff;
+        }
+        #container footer {
+	        background-color: #222222;
+            height: 35px;
+        }
+        #container footer h4 {
+            color: #fff;
+            text-align: center;
+            font-size: 0.8em;
+            padding-top: 7px;
+            
+        }
